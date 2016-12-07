@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>assignment1.scenario1.File</OriginalElement>
+  <nodes>
+    <node x="-24.5" y="172.0">assignment1.scenario1.HtmlFile</node>
+    <node x="175.5" y="52.0">assignment1.scenario1.XmlFile</node>
+    <node x="175.5" y="292.0">assignment1.scenario1.RtfFile</node>
+    <node x="175.5" y="172.0">assignment1.scenario1.File</node>
+    <node x="375.5" y="292.0">assignment1.scenario1.PlainTextFile</node>
+    <node x="386.0" y="-12.0">assignment1.scenario1.FileExtension</node>
+    <node x="535.5" y="172.0">assignment1.scenario1.WordFile</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="assignment1.scenario1.FileExtension" target="assignment1.scenario1.File">
+      <point x="0.0" y="52.0" />
+      <point x="480.0" y="180.0" />
+      <point x="64.5" y="-20.0" />
+    </edge>
+    <edge source="assignment1.scenario1.PlainTextFile" target="assignment1.scenario1.File">
+      <point x="0.0" y="-28.0" />
+      <point x="440.0" y="220.0" />
+      <point x="64.5" y="20.0" />
+    </edge>
+    <edge source="assignment1.scenario1.WordFile" target="assignment1.scenario1.File">
+      <point x="-64.5" y="0.0" />
+      <point x="64.5" y="0.0" />
+    </edge>
+    <edge source="assignment1.scenario1.RtfFile" target="assignment1.scenario1.File">
+      <point x="0.0" y="-28.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="assignment1.scenario1.HtmlFile" target="assignment1.scenario1.File">
+      <point x="64.5" y="0.0" />
+      <point x="-64.5" y="0.0" />
+    </edge>
+    <edge source="assignment1.scenario1.XmlFile" target="assignment1.scenario1.File">
+      <point x="0.0" y="28.0" />
+      <point x="0.0" y="-28.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="397.0" y="252.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
