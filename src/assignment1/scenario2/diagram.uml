@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>assignment1.scenario2</OriginalElement>
+  <nodes>
+    <node x="517.0" y="543.0">assignment1.scenario2.CoordinateDispatcher</node>
+    <node x="0.0" y="274.0">assignment1.scenario2.Circle</node>
+    <node x="123.0" y="543.0">assignment1.scenario2.Coordinates</node>
+    <node x="686.0" y="274.0">assignment1.scenario2.Triangle</node>
+    <node x="343.0" y="274.0">assignment1.scenario2.Rectangle</node>
+    <node x="0.0" y="745.0">assignment1.scenario2.BottomRightCoordinates</node>
+    <node x="343.0" y="0.0">assignment1.scenario2.Shape</node>
+    <node x="246.0" y="745.0">assignment1.scenario2.TopLeftCoordinates</node>
+    <node x="0.0" y="942.0">assignment1.scenario2.Main</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="assignment1.scenario2.Rectangle" target="assignment1.scenario2.Shape">
+      <point x="0.0" y="-112.0" />
+      <point x="0.0" y="112.0" />
+    </edge>
+    <edge source="assignment1.scenario2.TopLeftCoordinates" target="assignment1.scenario2.Coordinates">
+      <point x="0.0" y="-76.0" />
+      <point x="359.0" y="720.0" />
+      <point x="292.5" y="720.0" />
+      <point x="56.5" y="76.0" />
+    </edge>
+    <edge source="assignment1.scenario2.BottomRightCoordinates" target="assignment1.scenario2.Coordinates">
+      <point x="0.0" y="-76.0" />
+      <point x="113.0" y="720.0" />
+      <point x="179.5" y="720.0" />
+      <point x="-56.5" y="76.0" />
+    </edge>
+    <edge source="assignment1.scenario2.Triangle" target="assignment1.scenario2.Shape">
+      <point x="0.0" y="-112.0" />
+      <point x="847.5" y="249.0" />
+      <point x="612.1666666666667" y="249.0" />
+      <point x="107.66666666666669" y="112.0" />
+    </edge>
+    <edge source="assignment1.scenario2.Circle" target="assignment1.scenario2.Shape">
+      <point x="0.0" y="-112.0" />
+      <point x="161.5" y="249.0" />
+      <point x="396.8333333333333" y="249.0" />
+      <point x="-107.66666666666667" y="112.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="519.0" y="517.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
