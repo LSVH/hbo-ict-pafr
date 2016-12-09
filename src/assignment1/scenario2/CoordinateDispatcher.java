@@ -1,5 +1,7 @@
 package assignment1.scenario2;
 
+import javafx.scene.shape.Shape;
+
 /**
  * Describe this class
  *
@@ -9,21 +11,26 @@ package assignment1.scenario2;
  */
 
 public class CoordinateDispatcher {
-    private TopLeftCoordinates topLeft;
-    private BottomRightCoordinates bottomRight;
-    private Shape shape;
+    private Coordinates coordinates;
+    private boolean style = true;
+    private TopLeftDispatcher topLeft;
+    private BottomRightDispatcher bottomRight;
 
-    public CoordinateDispatcher(Shape shape) {
-        this.shape = shape;
-        topLeft = new TopLeftCoordinates(shape);
-        bottomRight = new BottomRightCoordinates(shape);
+    public CoordinateDispatcher(Coordinates coordinates) {
+        this.coordinates = coordinates;
+        topLeft = new TopLeftDispatcher(coordinates);
+        bottomRight = new BottomRightDispatcher(coordinates);
     }
 
-    public void dispatch(String style) {
-        if (style.equalsIgnoreCase("BR") || style.equalsIgnoreCase("bottomRight")) {
-            topLeft.display();
+    public Coordinates dispatch() {
+        Coordinates out;
+        if (style) {
+            style = false;
+            out = bottomRight.display();
         } else {
-            bottomRight.display();
+            style = true;
+            out = topLeft.display();
         }
+        return out;
     }
 }
